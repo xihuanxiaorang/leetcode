@@ -8,10 +8,6 @@ package fun.xiaorng.leetcode;
  * @date 2022/11/6 4:20
  */
 public class _237_delete_node_in_a_linked_list {
-    public static void main(String[] args) {
-
-    }
-
     public void deleteNode(ListNode node) {
         node.val = node.next.val;
         node.next = node.next.next;

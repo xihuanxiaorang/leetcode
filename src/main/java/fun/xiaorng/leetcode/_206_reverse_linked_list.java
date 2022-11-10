@@ -8,10 +8,6 @@ package fun.xiaorng.leetcode;
  * @date 2022/11/6 5:41
  */
 public class _206_reverse_linked_list {
-    public static void main(String[] args) {
-
-    }
-
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
         ListNode curr = head;
